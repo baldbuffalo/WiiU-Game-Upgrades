@@ -1,0 +1,8 @@
+{
+  "title_id": "00050000XXXXXXXX",
+  "upgrade_version": "1.0.0",
+  "minimum_base_version": "1.0.0",
+  "package_url": "",
+  "sha256": "",
+  "changelog": "Example upgrade. Replace this manifest with your own."
+}
