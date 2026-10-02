@@ -42,3 +42,17 @@ The application verifies metadata before staging an upgrade.
 9. Keep the installed result independent of this application.
 
 No Nintendo server is required by the application after a package has been installed.
+
+
+## Where to put an update package
+
+Put each update in its own folder under `upgrades/`:
+
+```
+upgrades/
+└── YOUR_GAME/
+    ├── upgrade.json
+    └── update.zip
+```
+
+The Aroma app automatically scans `sd:/wiiu/apps/WiiUGameUpgrades/upgrades/` when it starts. If both files are present and the manifest is valid, it detects `update.zip` automatically.
