@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app version="1">
+  <name>WiiU Game Upgrades</name>
+  <coder>Game Buster</coder>
+  <version>0.1.0</version>
+  <release_date>2026</release_date>
+  <short_description>Install user-created Wii U game upgrades</short_description>
+  <long_description>Wii U Aroma application for managing user-created game upgrade packages.</long_description>
+</app>
